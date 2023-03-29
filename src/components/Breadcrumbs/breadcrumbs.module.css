@@ -1,0 +1,12 @@
+.wrapper {
+    aspect-ratio: 5/1.1; /* соотношение сторон */
+    background-image: url(../../../public/images/breadcrumb-bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    flex-direction: column;
+}
+h1 {
+    font-size: 48px;
+}

@@ -1,0 +1,9 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.wrapper * {
+    width: calc(100% / 6 - 20px);
+}

@@ -1,0 +1,29 @@
+.card {
+    width: calc(25% - 30px);
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: flex-start;
+}
+.img {
+    width: 100%;
+}
+.name {
+    color: black;
+    text-decoration: none;
+}
+.price {
+    margin-top: 10px;
+    font-size: 24px;
+    margin-top: auto;
+}
+.card-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.card-list .img {
+    width: 20%;
+}

@@ -1,0 +1,40 @@
+.wrapper {
+    width: 60%;
+    margin-left: auto;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+}
+.link {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+.link:not(:last-child) {
+    margin-right: 75px;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 45px; /* сделать отступы внутри flex-контейнера */
+}
+.icon {
+    position: relative;
+    cursor: pointer;
+}
+.quantity {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 10;
+    top: -7px;
+    right: -7px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 50%;
+    background-color: bisque;
+}
